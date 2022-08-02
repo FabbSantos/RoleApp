@@ -1,7 +1,7 @@
 import React from "react"
 
 
-function Masthead() {
+const Masthead: React.FC = () => {
     return (
         <section className="flex flex-col min-h-screen min-w-[100vw] justify-center bg-masthead bg-cover">
             <div>
