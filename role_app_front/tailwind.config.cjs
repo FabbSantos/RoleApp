@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'masthead': "url('src/assets/masthead_bg.jpg')",
+      }
+    },
   },
   plugins: [],
 }
